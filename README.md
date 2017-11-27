@@ -3,7 +3,7 @@ Random Walk Time Series Generator with Spark
 
 This is a generator, where a random number is drawn from a Gaussian distribution N(0,1), then at each time point a new number is drawn from this distribution and added to the value of the last number.
 
-![Alt text] (https://github.com/lev-a/RandomWalk-tsGenerator/blob/master/randomWalkTS.png)
+![alt text] (randomWalkTS.png)
 
 ## Building 
 The code is presented as a Maven-built project. An executable jar with all dependencies can be built with the following command:
