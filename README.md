@@ -3,7 +3,7 @@ Random Walk Time Series Generator with Spark
 
 This is a generator, where a random number is drawn from a Gaussian distribution N(0,1), then at each time point a new number is drawn from this distribution and added to the value of the last number.
 
-![alt text] (randomWalkTS.png)
+![randomWalkTS] (https://user-images.githubusercontent.com/33427632/33318655-a489b8a2-d43b-11e7-8eb5-3497accc2880.png)
 
 ## Building 
 The code is presented as a Maven-built project. An executable jar with all dependencies can be built with the following command:
@@ -14,7 +14,7 @@ The code is presented as a Maven-built project. An executable jar with all depen
 To generate Time Series presented as **Object files** or **CSV files**  use the command with the `Options` required:
 <pre>
 
-<path_to_spark_bin>/spark-submit --class fr.inria.zenith.DataGenerator  <path_to_jar>/tsGen-scala-1.0-SNAPSHOT.jar [options]
+path_to_spark_bin/spark-submit --class fr.inria.zenith.DataGenerator   path_to_jar/tsGen-scala-1.0-SNAPSHOT.jar [options]
 
  
   Options:
